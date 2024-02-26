@@ -1,4 +1,4 @@
-import img1 from '../images/microphone.png'
+import img1 from '../images/ticket.png'
 import Card from './global components/Card';
 import data from '../data/data'
 
@@ -11,12 +11,12 @@ function Blogs() {
                 <button><img src={img1} alt="" /></button>
             </div>
             <div className="h1-p">
-                <h1>Trending podcasts</h1>
-                <p>Get started on trending episodes</p>
+                <h1>Trending Blogs</h1>
+                <p>Get started with a tranding block of this week</p>
             </div>
             </div>
             <div className="all-blog">
-                <a href="#">see all podcasts</a>
+                <a href="#">see all Blogs</a>
             </div>
         </div>
         <div className="blog-tiles">
