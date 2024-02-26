@@ -134,6 +134,7 @@ header {
 
 .header-podcast {
     display: flex;
+    gap: 30px;
 }
 
 .mic-logo button {
@@ -172,4 +173,55 @@ header {
 
 .podcast-main {
     margin-top: 200px;
+}
+
+
+/* card style  */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.podcast-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    border-radius: 4px;
+    box-shadow: 0px 0px 28px rgb(198, 192, 192);
+    max-width: 199px;
+}
+
+.card img {
+    padding-left: 19px;
+    padding-top: 19px;
+    padding-right: 19px;
+    padding-bottom: 0px;
+    height: 140px;
+    border-radius: 22   px;
+}
+
+.card h4 {
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.card a {
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #0F277B;
+    font-size: small;
+    font-weight: 350;
 }

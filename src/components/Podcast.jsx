@@ -1,5 +1,6 @@
 import img1 from '../images/microphone.png'
 import Card from './global components/Card';
+import data from '../data/data';
 
 function Podcast() {
     return<>
@@ -19,7 +20,14 @@ function Podcast() {
             </div>
         </div>
         <div className="podcast-tiles">
-            <Card/>
+            {data.map((cardItem) => {
+                return <Card 
+                 key={cardItem.id}
+                 image = {cardItem.imgAddress}
+                 title = {cardItem.podCastTitle}
+                 author = {cardItem.podcastAuthor}
+                />
+            })}
         </div>
     </div>
     </>
