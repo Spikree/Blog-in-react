@@ -17,17 +17,23 @@ header {
     color: #8F8953;
 }
 
-.nav-items ul {
+nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
     padding-top: 15px;
     margin-top: 0;
+    cursor: pointer;
 }
 
-.nav-items ul li {
-    font-weight: bold;
+nav ul li.active {
     color: #0F277B;
+    text-decoration: underline;
+}
+
+nav ul li {
+    font-weight: bold;
+    color: #95A4DA;
 }
 
 .search {
@@ -219,9 +225,67 @@ header {
     padding-left: 20px;
     padding-top: 0px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-decoration: none;
     color: #0F277B;
     font-size: small;
-    font-weight: 350;
+    font-weight: 400;
+}
+
+/* blog section styling */
+
+.blog {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-blog {
+    display: flex;
+    gap: 30px;
+}
+
+.mic-logo button {
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #E9E8DA;
+    margin-top: 0px;
+    margin-top: 32px;
+}
+
+.h1-p h1 {
+    font-size: 50px;
+    color:#8F8953;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.h1-p p {
+    color: gray;
+    font-size: large;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.all-blog {
+    margin-top: 53px;
+}
+
+.all-blog a {
+    text-decoration: none;
+    font-size: small;
+    color: #0F277B;
+    font-weight: bold;
+}
+
+.blog-main {
+    margin-top: 35px;
+}
+
+.blog-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }

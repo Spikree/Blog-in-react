@@ -7,15 +7,15 @@ function Header() {
             <div className="logo">
                 <h1>VoiseNVerse</h1>
             </div>
-            <div className="nav-items">
+            <nav className="nav-items">
                 <ul>
-                    <li>Home</li>
+                    <li className='active'>Home</li>
                     <li>Podcast</li>
                     <li>Blogs</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
-            </div>
+            </nav>
             <div className="search">
             <FontAwesomeIcon className="icon-cart" icon={faSearch} />
             </div>
