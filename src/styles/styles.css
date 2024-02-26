@@ -31,9 +31,9 @@ header {
 }
 
 .search {
-    margin-top: 18px;
+    margin-top: 17px;
     color: #0F277B;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 /* hero section styling  */
@@ -69,9 +69,12 @@ header {
 
 .paragraph-hero p {
     font-size: large;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 50px;
 }
 
-.hero-buttons button {
+.btn-hero-1 {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 35px;
@@ -84,11 +87,31 @@ header {
     font-size: larger;
 }
 
+.btn-hero-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 30px;
+    color: #0F277B;
+    background-color: white;
+    border-color:  #0F277B;
+    font-weight: 450;
+    font-size: larger;
+    transition: background-color 0.3s ease;
+}
+
+.btn-hero-2:hover {
+    background-color: #0F277B;
+    color: white;
+}
+
 .hero-buttons {
-    padding-top: 30px;
-    margin-top: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
     display: flex;
     gap: 60px;
+    padding-left: 30px;
 }
 
 .mic-image {
@@ -99,4 +122,54 @@ header {
 .web-page-img {
     height: 50px;
     padding-left: 10px;
+    margin-left: 590px;
+}
+
+/* podcast section styles */
+
+.podcast {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-podcast {
+    display: flex;
+}
+
+.mic-logo button {
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #E9E8DA;
+    margin-top: 0px;
+    margin-top: 32px;
+}
+
+.h1-p h1 {
+    font-size: 50px;
+    color:#8F8953;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.h1-p p {
+    color: gray;
+    font-size: large;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.all-podcasts {
+    margin-top: 53px;
+}
+
+.all-podcasts a {
+    text-decoration: none;
+    font-size: small;
+    color: #0F277B;
+    font-weight: bold;
+}
+
+.podcast-main {
+    margin-top: 200px;
 }

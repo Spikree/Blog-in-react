@@ -8,14 +8,14 @@ function Hero() {
             <div className="hero-text">
             <img style={{maxWidth: "100%"}} src={micImg} alt="mic-image" className="mic-image" />
             <h1>Share via writing and podcasts, hope you enjoy</h1>
-            <img src={pageImg} alt="web page img" className="web-page-img" />
             </div>
             <div className="paragraph-hero">
                 <p>Increase your knowledge by reading new things and I will share whatever I know for you, as long as I enjoy it</p>
+                <img src={pageImg} alt="web page img" className="web-page-img" />
             </div>
             <div className="hero-buttons">
-                <button>Read more</button>
-                <button style={{ backgroundColor: "white", color: "rgb(3, 3, 120)"}}>Listen to Podcasts</button>
+                <button className="btn-hero-1">Read more</button>
+                <button className="btn-hero-2">Listen to Podcasts</button>
             </div>
         </div>
     </>
