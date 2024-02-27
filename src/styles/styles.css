@@ -289,3 +289,18 @@ nav ul li {
     flex-wrap: wrap;
     margin-top: 40px;
 }
+
+/* most loved  */
+
+.most-loved h1 {
+    font-size: 40px;
+    font-weight: 450;
+    color: #8F8953;
+    margin-right: 220px;
+}
+
+.most-loved {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}

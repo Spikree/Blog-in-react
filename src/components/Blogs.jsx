@@ -1,6 +1,6 @@
 import img1 from '../images/ticket.png'
 import Card from './global components/Card';
-import data from '../data/data'
+import data2 from '../data/data2'
 
 function Blogs() {
     return<>
@@ -20,7 +20,7 @@ function Blogs() {
             </div>
         </div>
         <div className="blog-tiles">
-            {data.map((cardItem) => {
+            {data2.map((cardItem) => {
                 return <Card 
                  key={cardItem.id}
                  image = {cardItem.imgAddress}
